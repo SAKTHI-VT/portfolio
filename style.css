@@ -48,8 +48,14 @@ html
     flex-direction: column;
     height: 840px;
     justify-content: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
+}
+#home img
+{
+    height: 350px;
+    width: 250px;
+    margin-left: 250px;
 }
 #home::before
 {
@@ -79,8 +85,8 @@ html
     font-size: 25px;
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid salmon;
-    color: white;
+    border: 2px solid salmon;
+    color: black;
     outline: none;
     transition: .6s ease;
 }
@@ -89,11 +95,12 @@ html
     cursor: pointer;
     background-color: chocolate;
     color: black;
-    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
     font-weight: bold
 }
 #about
 {
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;  
     box-sizing: border-box; 
@@ -140,7 +147,7 @@ html
 }
 .gallery
 {
-    background-color: white;
+    background-color: aliceblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -157,7 +164,7 @@ html
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: white;
+    background-color: aliceblue;
     color: bla;
     padding: 20px;
 }
